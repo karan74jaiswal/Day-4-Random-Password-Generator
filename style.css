@@ -6,66 +6,66 @@
 }
 
 body {
-  background: #001e4d;
-}
-
-.password-generator {
-  margin: 150px 100px;
-  max-width: 600px;
-}
-
-.password-generator h1 {
-  font-weight: 600;
+  background: #002339;
   color: #fff;
-  /* margin-bottom: 8px; */
-  padding-bottom: 10px;
-  /* text-align: left; */
 }
 
-.password-generator .random-password {
-  border-bottom: 4px solid rgb(25, 140, 82);
-  color: rgb(25, 140, 82);
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.container .random-password {
+  border-bottom: 4px solid #019f55;
+  color: #019f55;
   width: 100%;
-  max-width: 290px;
+  padding-bottom: 7px;
 }
 
 .generator {
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   background: #fff;
   width: 100%;
   justify-content: space-between;
-  padding: 15px;
+  padding: 26px 20px;
   gap: 10px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: #333;
 }
 
 #password-field {
   border: none;
   outline: none;
-  font-size: 30px;
-  width: 100%;
+  font-size: 24px;
 }
 
 .generator img {
-  height: 30px;
-  width: auto;
+  width: 30px;
   cursor: pointer;
 }
 
 .generate-btn {
   display: flex;
   align-items: center;
-  background: rgb(25, 140, 82);
-  color: #fff;
+  justify-content: center;
+  background: #019f55;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 300;
   border: none;
   outline: none;
-  padding: 15px;
+  padding: 16px 26px;
   border-radius: 5px;
+  color: #fff;
 }
 
 .generate-btn:active {
@@ -73,6 +73,6 @@ body {
 }
 
 .generate-btn img {
-  height: 30px;
-  margin-right: 5px;
+  height: 28px;
+  margin-right: 10px;
 }
