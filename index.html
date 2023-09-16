@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="password-generator">
+      <h1>Generate a</h1>
+      <h1 class="random-password">Random Password</h1>
+      <div class="generator">
+        <input
+          type="text"
+          placeholder="Password"
+          id="password-field"
+          value=""
+        />
+        <img
+          src="./images/copy.png"
+          alt="Copy Password"
+          class="copy-password"
+        />
+      </div>
+      <button class="generate-btn">
+        <img src="./images/generate.png" alt="Generate-password" />Generate
+        Password
+      </button>
+    </div>
+  </body>
 </html>

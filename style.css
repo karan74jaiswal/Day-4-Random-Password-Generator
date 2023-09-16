@@ -4,3 +4,75 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+body {
+  background: #001e4d;
+}
+
+.password-generator {
+  margin: 150px 100px;
+  max-width: 600px;
+}
+
+.password-generator h1 {
+  font-weight: 600;
+  color: #fff;
+  /* margin-bottom: 8px; */
+  padding-bottom: 10px;
+  /* text-align: left; */
+}
+
+.password-generator .random-password {
+  border-bottom: 4px solid rgb(25, 140, 82);
+  color: rgb(25, 140, 82);
+  width: 100%;
+  max-width: 290px;
+}
+
+.generator {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#password-field {
+  border: none;
+  outline: none;
+  font-size: 30px;
+  width: 100%;
+}
+
+.generator img {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
+
+.generate-btn {
+  display: flex;
+  align-items: center;
+  background: rgb(25, 140, 82);
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.generate-btn:active {
+  background: rgb(54, 151, 103);
+}
+
+.generate-btn img {
+  height: 30px;
+  margin-right: 5px;
+}
